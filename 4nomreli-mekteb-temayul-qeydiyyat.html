@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4 Nömrəli Məktəb - Təmayül Qeydiyyatı</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    width:60%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    margin-top:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+label{
+    font-weight:bold;
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+button{
+    background:#27ae60;
+    color:white;
+    border:none;
+    padding:12px;
+    width:100%;
+    font-size:16px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#219150;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+    background:#2c3e50;
+    color:white;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>4 Nömrəli Məktəb</h1>
+<p>Təmayül Qeydiyyat Forması</p>
+</header>
+
+<div class="container">
+
+<form>
+
+<label>Şagirdin Adı və Soyadı</label>
+<input type="text" placeholder="Ad və Soyad" required>
+
+<label>Sinif</label>
+<select required>
+<option value="">Seçin</option>
+<option>9</option>
+<option>10</option>
+<option>10temayul</option>
+<option>11</option>
+</select>
+
+<label>Telefon Nömrəsi</label>
+<input type="tel" placeholder="+994">
+
+<label>Təmayül Seçimi</label>
+<select required>
+<option value="">Seçin</option>
+<option>1-ci qrup</option>
+<option>2-ci qrup</option>
+<option>3-cu qrup</option>
+<option>4-cu qrup</option>
+</select>
+
+<label>Əlavə Qeyd</label>
+<input type="text" placeholder="İstəyə bağlı">
+
+<button type="submit">Qeydiyyatdan Keç</button>
+
+</form>
+
+</div>
+
+<footer>
+<p>© 2026 4 Nömrəli Məktəb</p>
+</footer>
+
+</body>
+</html>
